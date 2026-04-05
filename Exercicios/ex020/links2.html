@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: normal;
+        }
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+        .especial::before {
+            content: '⇒';
+        }
+        .especial::after {
+            content: '⇐';
+        }
+        .especial {
+            font-weight: bolder;
+        }
+        .especial {
+            color: white;
+             background-color: red;
+             padding: 5px;
+             border-radius: 5px;
+             padding: 0px;   
+             outline: 1px solid rgb(247, 250, 62);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício 20</h1>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.facebook.com" target="_blank" class="especial">Facebook</a></li>
+        <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+    </ul>
+</body>
+</html>
