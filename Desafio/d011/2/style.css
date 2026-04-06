@@ -52,7 +52,10 @@ section {
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 2.4vw;
-    
+}
+
+section p {
+    padding-bottom: 40px;
 }
 
 section.normal {
@@ -67,7 +70,7 @@ section.imagem {
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.301);
-    width: 8000px;
+    width: 200px;
     padding: 10px;
 }
 
