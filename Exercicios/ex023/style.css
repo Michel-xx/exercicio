@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+thead {
+    background-color: gray;
+    color: white;
+}
+.zebra {
+    background-color: lightgray;
+}
+
+.num {
+    text-align: right;
+}
